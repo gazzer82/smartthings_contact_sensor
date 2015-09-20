@@ -114,11 +114,11 @@ void setup()
   //  -Note: Set these to "false" if using Hardware Serial on pins 0 & 1
   //         to prevent communication conflicts with the ST Shield communications
   //*****************************************************************************
-  st::Everything::debug=true;
-  st::Executor::debug=true;
-  st::Device::debug=true;
-  st::PollingSensor::debug=true;
-  st::InterruptSensor::debug=true;
+  st::Everything::debug=false;
+  st::Executor::debug=false;
+  st::Device::debug=false;
+  st::PollingSensor::debug=false;
+  st::InterruptSensor::debug=false;
   
   //*****************************************************************************
   //Initialize the "Everything" Class
